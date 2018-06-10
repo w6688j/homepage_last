@@ -11,43 +11,43 @@ define(['laravel', 'config'], function (laravel, config) {
             $stateProvider
                 .state('home', {
                     url: '/',
-                    templateUrl: config.tpl('/index/index'),
+                    templateUrl: config.tpl('index/index'),
                     controllerUrl: 'ctrl/index/index',
                     controller: 'index'
                 })
                 .state('research', {
                     url: '/research',
-                    templateUrl: config.tpl('/index/research'),
+                    templateUrl: config.tpl('index/research'),
                     controllerUrl: 'ctrl/index/index',
                     controller: 'research'
                 })
                 .state('publications', {
                     url: '/publications',
-                    templateUrl: config.tpl('/index/publications'),
+                    templateUrl: config.tpl('index/publications'),
                     controllerUrl: 'ctrl/index/index',
                     controller: 'publications'
                 })
                 .state('projects', {
                     url: '/projects',
-                    templateUrl: config.tpl('/index/projects'),
+                    templateUrl: config.tpl('index/projects'),
                     controllerUrl: 'ctrl/index/index',
                     controller: 'projects'
                 })
                 .state('awards', {
                     url: '/awards',
-                    templateUrl: config.tpl('/index/awards'),
+                    templateUrl: config.tpl('index/awards'),
                     controllerUrl: 'ctrl/index/index',
                     controller: 'awards'
                 })
-                .state('courses', {
-                    url: '/courses',
-                    templateUrl: config.tpl('/index/courses'),
+                .state('photos', {
+                    url: '/photos',
+                    templateUrl: config.tpl('index/photos'),
                     controllerUrl: 'ctrl/index/index',
-                    controller: 'courses'
+                    controller: 'photos'
                 })
                 .state('contact', {
                     url: '/contact',
-                    templateUrl: config.tpl('/index/contact'),
+                    templateUrl: config.tpl('index/contact'),
                     controllerUrl: 'ctrl/index/index',
                     controller: 'contact'
                 })

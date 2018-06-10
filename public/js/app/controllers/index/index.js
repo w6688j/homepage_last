@@ -15,8 +15,8 @@ define(['laravel'], function (laravel) {
         .controller('awards', [function () {
             currentNenu('awards');
         }])
-        .controller('courses', [function () {
-            currentNenu('courses');
+        .controller('photos', [function () {
+            currentNenu('photos');
         }])
         .controller('contact', [function () {
             currentNenu('contact');
