@@ -1,0 +1,36 @@
+.oldie .imgHolder ul {
+    visibility: hidden;
+}
+
+.oldie .imgHolder:hover ul {
+    visibility: visible;
+}
+
+.oldie .widget-pricetable .featured {
+    border: 1px solid #cfcfcf;
+    border-top: none;
+}
+
+.ie7 img {
+    -ms-interpolation-mode: bicubic;
+}
+
+.ie7 .one_half {
+    width: 47%;
+}
+
+.ie7 .two_fourth {
+    width: 47%;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    padding: 0.2em 0;
+    background: #FFFF00;
+    color: black;
+    text-align: center;
+}
+
+.chromeframe a {
+    color: #007fff;
+}
