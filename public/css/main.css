@@ -1200,6 +1200,11 @@ aside .widget_recent_news article:last-child, aside .widget_recent_blog article:
     border-bottom: none !important;
 }
 
+aside .widget_recent_news .entry-title {
+    margin-top: 0;
+    display: inline;
+}
+
 aside .widget_recent_news .entry-format {
     display: none;
 }
